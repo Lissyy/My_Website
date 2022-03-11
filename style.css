@@ -1,0 +1,152 @@
+@import 'https://fonts.googleapis.com/css?family=Chapman:300,400,500&display=swap';
+
+header{
+    background-image: url("nyc.jpg");
+    background-position: center -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 3em;
+    padding: 1em 2em 10em;
+    text-align: center;
+    max-width: none;
+
+}
+
+header img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 1200px;
+    
+}
+
+header h1 {
+    font-family: "Chapman", "Georgia";
+    color: #008080;
+    font-size: 2em;
+    font-weight: 300;
+    margin-top: 0;
+    padding-top: 0;
+  
+}
+
+header a {
+    font-family: "Chapman", "Georgia";
+    border: 1px solid #deb887;
+    border-radius: 290486px;
+    color: darkgoldenrod;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    padding: 0.5em 0.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+    text-shadow: 1px 1px 2px #008080; 
+}
+
+header a:hover{
+    background-color: cadetblue;
+    background: cadetblue; 
+}
+
+body {
+    background-color: white;
+    font-family: "Chapman" , "Georgia";
+    font-size: 15px;
+    line-height: 1.5em;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+    max-width: 50em;
+    color: #555;   
+}
+
+.strong {
+    color: darkgoldenrod; 
+}
+
+
+
+main h3{
+    font-family: "Chapman" , "Georgia";
+    font-size: 1.5em;
+    margin-top: 1em;
+    padding-top: 1em;
+    color: cadetblue
+}
+
+h3 {
+    color: #008080; 
+    font-family: "Chapman", "Georgia";
+    font-weight: 300;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+
+
+img{
+    border: 1px solid grey;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+
+code,
+pre {
+    background: #eee;
+    border-bottom: 1px solid #d8dee9; 
+    color: aquamarine;
+}
+
+
+code{
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+
+pre{
+    padding: 1em;
+    border-left: 2px solid #69c;
+}
+
+
+
+
+main{
+    font-family: "Chapman" , "Georgia";
+    padding-top: 2em;
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+main h2{
+    color: #008080; 
+    font-family: "Chapman", "Georgia";
+    font-weight: 800;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+ol li a{
+    color: darkgoldenrod
+}
+    
+
+.table{
+   color: black;
+   padding-left: 1.5em;
+
+}
+
+.tablehead{
+    padding-left: 1.5em;
+    color: #555; 
+    font-weight: 400;
+}
